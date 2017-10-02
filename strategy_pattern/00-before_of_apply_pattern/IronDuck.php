@@ -6,10 +6,4 @@ class IronDuck extends Duck
     {
         echo "I look like a redhead";
     }
-
-
-    public function fly()
-    {
-        echo "I can't fly, oh my god, I'm a iron duck, since when a iron duck can fly? :)";
-    }
 }
