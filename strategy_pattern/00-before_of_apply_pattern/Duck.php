@@ -14,6 +14,16 @@ abstract class Duck
 
     abstract public function display();
 
+    public function setQuackBehavior(QuackableInterface $quackBehavior)
+    {
+        $this->quackBehavior = $quackBehavior;
+    }
+
+    public function setFlyBehavior(FlyableInterface $flyBehavior)
+    {
+        $this->flyBehavior = $flyBehavior;
+    }
+
     public function swim()
     {
         echo "I'm swimming!";
