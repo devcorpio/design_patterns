@@ -10,4 +10,7 @@ I'm working with the next design patterns:
 1. Strategy pattern
 2. Observer pattern
 3. Decorator pattern
-4. Factory pattern
+4. Factories
+   - Simple factory (It is not considered officially a design pattern)
+   - Factory method
+   - Abstract factory
