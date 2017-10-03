@@ -7,7 +7,7 @@ class PizzaStore
         $pizza = new Pizza();
 
         $pizza->prepare();
-        $pizza->bake;
+        $pizza->bake();
         $pizza->cut();
         $pizza->box();
 
