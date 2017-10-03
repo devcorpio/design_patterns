@@ -2,5 +2,5 @@
 
 interface Observer
 {
-    public function update(float $temp, float $humidity, float $pressure);
+    public function update(float $temperature, float $humidity, float $pressure): void;
 }
