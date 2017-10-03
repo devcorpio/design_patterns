@@ -1,6 +1,6 @@
 <?php
 
-class ChicagoCheesePizza extends Pizza
+class ChicagoStyleCheesePizza extends Pizza
 {
     public function __construct()
     {

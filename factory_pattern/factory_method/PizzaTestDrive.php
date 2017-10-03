@@ -1,7 +1,7 @@
 <?php
 
 require 'Pizza.php';
-require 'ChicagoCheesePizza.php';
+require 'ChicagoStyleCheesePizza.php';
 require 'NYStyleCheesePizza.php';
 require 'PizzaStore.php';
 require 'NYStylePizzaStore.php';
