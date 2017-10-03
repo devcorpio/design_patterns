@@ -2,9 +2,17 @@
 
 class PizzaStore
 {
-    public function orderPizza(): Pizza
+    public function orderPizza(string $type): Pizza
     {
-        $pizza = new Pizza();
+        $pizza = null;
+
+        if ($type === "cheese") {
+            $pizza = new CheesePizza();
+        } else if ($type === "greek") {
+            $pizza = new GreekPizza();
+        } else if ($type === "pepperoni") {
+            $pizza = new PepperoniPizza();
+        }
 
         $pizza->prepare();
         $pizza->bake();
