@@ -1,14 +1,14 @@
 <?php
 
-class Espresso extends Beverage
+class HouseBlend extends Beverage
 {
     public function __construct()
     {
-        $this->description = 'Espresso';
+        $this->description = 'House Blend Coffee';
     }
 
-    public function cost(): double
+    public function cost(): float
     {
-        return 1.99;
+        return 0.89;
     }
 }

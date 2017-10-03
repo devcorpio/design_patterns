@@ -1,12 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alberto
- * Date: 03/10/17
- * Time: 19:24
- */
 
-class Beverage
+abstract class Beverage
 {
+    protected $description;
 
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
+
+    public abstract function cost(): float;
 }

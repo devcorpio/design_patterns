@@ -1,6 +1,6 @@
 <?php
 
-class Mocha extends CondimentDecorator
+class Whip extends CondimentDecorator
 {
     /**
      * @var Beverage
@@ -14,11 +14,11 @@ class Mocha extends CondimentDecorator
 
     public function getDescription(): string
     {
-       return $this->beverage->getDescription(). ', Mocha';
+       return $this->beverage->getDescription(). ', Whip';
     }
 
-    public function cost(): double
+    public function cost(): float
     {
-        return $this->beverage->cost() + 0.20;
+        return $this->beverage->cost() + 0.10;
     }
 }

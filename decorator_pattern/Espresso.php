@@ -1,12 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alberto
- * Date: 03/10/17
- * Time: 20:06
- */
 
-class Espresso
+class Espresso extends Beverage
 {
+    public function __construct()
+    {
+        $this->description = 'Espresso';
+    }
 
+    public function cost(): float
+    {
+        return 1.99;
+    }
 }
