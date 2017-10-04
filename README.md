@@ -12,5 +12,6 @@ I'm working with the next design patterns:
 3. Decorator pattern
 4. Factories
    - Simple factory (It is not considered officially a design pattern)
-   - Factory method
-   - Abstract factory
+   - Factory method pattern
+   - Abstract factory pattern
+5. Singleton pattern
