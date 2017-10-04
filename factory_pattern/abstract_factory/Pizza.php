@@ -8,22 +8,36 @@ abstract class Pizza
     protected $name;
 
     /**
-     * @var string
+     * @var Dough
      */
     protected $dough;
 
     /**
-     * @var string
+     * @var Sauce
      */
     protected $sauce;
 
-    public function prepare(): void
-    {
-        echo "Preparing " . $this->name;
-        echo "Tossing dough...";
-        echo "Adding sauce...";
-        echo "Adding toppings...";
-    }
+    /**
+     * @var Veggie
+     */
+    protected $veggie;
+
+    /**
+     * @var Cheese
+     */
+    protected $cheese;
+
+    /**
+     * @var Pepperoni
+     */
+    protected $pepperoni;
+
+    /**
+     * @var Clams
+     */
+    protected $clam;
+
+    public abstract function prepare(): void;
 
     public function bake(): void
     {

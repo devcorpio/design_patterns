@@ -5,15 +5,16 @@ class NYStylePizzaStore extends PizzaStore
     function createPizza($type)
     {
         $pizza = null;
+        $pizzaIngredientFactory = new NYPizzaIngredientFactory();
 
         if ($type === "cheese") {
-            $pizza = new NYStyleCheesePizza();
+            $pizza = new CheesePizza($pizzaIngredientFactory);
         } else if ($type === "pepperoni") {
-            $pizza = new NYStylePepperoniPizza();
+            $pizza = new PepperoniPizza($pizzaIngredientFactory);
         } else if ($type === "clam") {
-            $pizza = new NYStyleClamPizza();
+            $pizza = new ClamPizza($pizzaIngredientFactory);
         } else if ($type === "veggie") {
-            $pizza = new NYStyleVeggiePizza();
+            $pizza = new VeggiePizza($pizzaIngredientFactory);
         }
 
         return $pizza;

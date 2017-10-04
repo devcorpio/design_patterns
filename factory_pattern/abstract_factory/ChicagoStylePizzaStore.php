@@ -5,15 +5,16 @@ class ChicagoPizzaStore extends PizzaStore
     function createPizza($type)
     {
         $pizza = null;
+        $pizzaIngredientFactory = new ChicagoIngredientFactory();
 
         if ($type === "cheese") {
-            $pizza = new ChicagoStyleCheesePizza();
+            $pizza = new CheesePizza($pizzaIngredientFactory);
         } else if ($type === "pepperoni") {
-            $pizza = new ChicagoStylePepperoniPizza();
+            $pizza = new PepperoniPizza($pizzaIngredientFactory);
         } else if ($type === "clam") {
-            $pizza = new ChicagoStyleClamPizza();
+            $pizza = new ClamPizza($pizzaIngredientFactory);
         } else if ($type === "veggie") {
-            $pizza = new ChicagoStyleVeggiePizza();
+            $pizza = new VeggiePizza($pizzaIngredientFactory);
         }
 
         return $pizza;
