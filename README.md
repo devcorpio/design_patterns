@@ -14,4 +14,5 @@ I'm working with the next design patterns:
    - Simple factory (It is not considered officially a design pattern)
    - Factory method pattern
    - Abstract factory pattern
-5. Singleton pattern
+5. Singleton pattern(a few code, explains how deal with multithreading, and another things)
+
