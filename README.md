@@ -17,3 +17,4 @@ I'm working with the next design patterns:
 5. Singleton pattern(a few code, explains how deal with multithreading, and another things)
 6. Command pattern
 7. Adapter pattern
+8. Facade pattern
