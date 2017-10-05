@@ -23,8 +23,8 @@ class PancakeHouseMenu
         $this->menuItems[] = $menuItem;
     }
 
-    public function getMenuItems(): array
+    public function createIterator(): IteratorCustom
     {
-        return $this->menuItems;
+        return new DinerMenuIterator($this->menuItems);
     }
 }
