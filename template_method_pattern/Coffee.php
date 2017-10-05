@@ -1,32 +1,14 @@
 <?php
 
-class Coffee
+class Coffee extends CaffeineBeverage
 {
-    public function prepareRecipe(): void
+    public function brew(): void
     {
-        $this->boilWater();
-        $this->brewCoffeeGrinds();
-        $this->pourInCup();
-        $this->addSugarAndMilk();
+        echo "Dripping Coffe through filter";
     }
 
-    public function boilWater(): void
+    public  function addCondiments(): void
     {
-        echo "Boiling water";
-    }
-
-    public function brewCoffeGrinds(): void
-    {
-        echo "Dripping Coffee through filter";
-    }
-
-    public function pourInCup(): void
-    {
-        echo "Pouring into cup";
-    }
-
-    public function addSugarAndMilk(): void
-    {
-        echo "Adding sugar and Milk";
+        echo "Adding Sugar and Milk";
     }
 }
