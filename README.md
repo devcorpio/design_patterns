@@ -19,3 +19,4 @@ I'm working with the next design patterns:
 7. Adapter pattern
 8. Facade pattern
 9. Template method pattern
+10. Iterator pattern
