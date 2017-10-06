@@ -25,4 +25,5 @@ I'm working with the next design patterns:
     That pattern helps to encapsulate the type of collection to the client: array, hashmap, linkedlist, etc), 
     We work with classes than implement a Iterator interface, 
     hence if we change our internals the client still work with an Iterator.
-11. Composite pattern 
+11. Composite pattern
+12. State pattern
