@@ -30,3 +30,17 @@ I'm working with the next design patterns:
 13. Proxy pattern
     - The code is extremely coupled to Java, because of this I didn't add nothing.
     If you wanna more info check this: [Proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern)
+    
+    
+# conclusions
+
+If you have several years of experience working in companies and many times you felt
+that your code or the code of your company is prone to be a "troublemaker",
+then I **recommend** you to buy that book
+
+I think that for take advantage that book you require experience in many real projects, had been struggle with real problems, in that book 
+you will see THAT problems (also in [Refactorings book](https://github.com/devcorpio/refactoring))
+
+If you don't have experience working in "real" projects I recommend to you to wait to work with them before of buy that book.
+
+I hope this repository helps you in some way.
