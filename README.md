@@ -28,3 +28,5 @@ I'm working with the next design patterns:
 11. Composite pattern
 12. State pattern
 13. Proxy pattern
+    - The code is extremely coupled to Java, because of this I din't add nothing.
+    If you wanna more info check this: [Proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern)
