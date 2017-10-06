@@ -27,3 +27,4 @@ I'm working with the next design patterns:
     hence if we change our internals the client still work with an Iterator.
 11. Composite pattern
 12. State pattern
+13. Proxy pattern
